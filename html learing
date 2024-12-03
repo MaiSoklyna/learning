@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>COIN FLIP</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="contanier">
+     <div id="coin" class="">
+
+        <div id="heads" class="headsClass"></div>
+        <div id="tails" class="tailsClass"></div>
+      </div>
+      <button id="flip">flip the Coin</button>
+      <p> heads:<span id="headcount">0 </span> tails:<span id="tailsCount">0</span></p>
+      <p> <span id="status"></span></p>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
